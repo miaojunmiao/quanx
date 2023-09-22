@@ -25,6 +25,7 @@ if (headerCookie) {
     if ($prefs.valueForKey("CookieKP") != headerCookie) {
       if (headerCookie.indexOf("ey") != -1) {
         var cookie = $prefs.setValueForKey(headerCookie, "CookieKP");
+        console.log(cookie);
         if (!cookie) {
           $notify("御姐Cookie失败‼️", "", "");
         } else {
