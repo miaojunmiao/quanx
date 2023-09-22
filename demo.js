@@ -26,21 +26,21 @@ if (headerCookie) {
       if (headerCookie.indexOf("ey") != -1) {
         var cookie = $prefs.setValueForKey(headerCookie, "CookieKP");
         if (!cookie) {
-          $notify("Cookie失败‼️", "", "");
+          $notify("御姐Cookie失败‼️", "", "");
         } else {
-          $notify("Cookie成功 🎉", "", "");
+          $notify("御姐Cookie成功 🎉", "", "");
         }
       }
     }else{
-      console.log("cookie", "没有变化,无需更新")
+      console.log("御姐cookie", "没有变化,无需更新")
     }
   } else {
     if (headerCookie.indexOf("ey") != -1) {
       var cookie = $prefs.setValueForKey(headerCookie, "CookieKP");
       if (!cookie) {
-        $notify("首次写入Cookie失败‼️", "", "");
+        $notify("御姐Cookie失败‼️", "", "");
       } else {
-        $notify("首次写入Cookie成功 🎉", "", "");
+        $notify("御姐Cookie成功 🎉", "", "");
       }
     }
   }
