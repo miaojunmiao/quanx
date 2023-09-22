@@ -18,7 +18,7 @@ https?:\/\/kunpeng.business.tech.sznyjd.cn url script-response-body https://gite
 
 */
 
-var headerCookie = $request.headers["Cookie"];
+var headerCookie = $request.headers["kp"];
 
 if (headerCookie) {
   if ($prefs.valueForKey("CookieKP") != undefined) {
