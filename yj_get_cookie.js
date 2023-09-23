@@ -12,7 +12,7 @@ When TieBa app is opened, click "My", If notification gets cookie success, you c
 Note that the following config is only a local script configuration, please put this scripts into Quantumult X/Script, and the cookie script only works for TieBa apps in china apple store
 
 [rewrite_local]
-https?:\/\/kunpeng.business.tech.sznyjd.cn url script-response-body https://gitee.com/quietes/quanx/raw/master/demo.js
+https?:\/\/kunpeng.business.tech.sznyjd.cn url script-request-header https://github.com/miaojunmiao/quanx/blob/master/yj_get_cookie.js
 
 # MITM = kunpeng.business.tech.sznyjd.cn
 
